@@ -1,7 +1,8 @@
 selenium
 bs4
-aiothttp
 click
 humanize
 html5lib
 pandas
+mysql-connector-python
+psycopg2-binary
