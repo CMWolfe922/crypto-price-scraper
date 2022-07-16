@@ -1,0 +1,7 @@
+selenium
+bs4
+aiothttp
+click
+humanize
+html5lib
+pandas
