@@ -6,3 +6,6 @@ html5lib
 pandas
 mysql-connector-python
 psycopg2-binary
+loguru
+scrapy
+pymongo

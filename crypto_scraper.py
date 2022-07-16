@@ -10,9 +10,9 @@ from datetime import datetime as dt
 CHROME_DRIVER_PATH = "./drivers/chromedriver"
 coin = 'MANA'
 
-url = f"https://wazirx.com/exchange/{coin}-USD"
+url = f"https://www.coingecko.com/"
 
-browser = webdriver.Chrome(CHROME_DRIVER_PATH)
+browser = webdriver.Chrome()
 browser.get(url)
 
 # CREATE A DELAY VARIABLE:
@@ -38,6 +38,6 @@ def price_parser(driver):
 
     return to_db
 
+
 if __name__ == '__main__':
     parsed_prices = price_parser(browser)
-    
